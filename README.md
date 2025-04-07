@@ -8,7 +8,7 @@ Clone o repositório:
 git clone https://github.com/HenryTito/VERS-O-ALFA-PORTFOLIO.git
 
 Acesse o diretório do projeto:
-cd portfolio-website
+cd portfolio
 
 Instale as dependências:
 npm install
