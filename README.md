@@ -31,6 +31,6 @@ React: Uma biblioteca JavaScript para construção de interfaces de usuário.
 
 React Icons: Uma coleção de ícones populares para projetos React.
 
-Resend: API de envio de e-mails voltada para desenvolvedores.
+
 
 🔧 Esta é a primeira versão da documentação e do projeto. Alterações e melhorias serão feitas ao longo do tempo.
