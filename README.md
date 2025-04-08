@@ -1,5 +1,7 @@
 Website de Portfólio
 
+LINK VERCEL:
+
 Este é um site de portfólio desenvolvido com Next.js e Tailwind CSS. Ele exibe suas habilidades, projetos e conquistas com um design elegante.
 
 Instalação:
@@ -12,6 +14,8 @@ cd portfolio
 
 Instale as dependências:
 npm install
+npm install framer-motion
+npm install react-type-animations
 
 Uso:
 
