@@ -14,8 +14,11 @@ cd portfolio
 
 Instale as dependências:
 npm install
+
 npm install framer-motion
+
 npm install react-type-animations
+
 
 Uso:
 
