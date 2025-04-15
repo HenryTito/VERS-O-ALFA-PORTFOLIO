@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.about-section {
+  color: white;
+  margin-top: 8rem;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem 1rem;
+ 
+}
+
+
+
+@media (min-width: 768px) {
+  .about-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 4rem 4rem;
+  }
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-family: sans-serif;
+}
+
+.tab-content {
+  margin-top: 2rem;
+}
+
+.custom-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-family: sans-serif;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+#habilidades {
+  font-family: sans-serif;
+}
+
+.link_texto {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.custom-list2 {
+  padding-left: 1.5rem;
+  font-family: sans-serif;
+  list-style: none;
+  font-size: 2rem;
+}
