@@ -2,7 +2,7 @@ Website de Portfólio
 
 LINK VERCEL:https://vers-o-alfa-portfolio-efpz.vercel.app
 
-Este é um site de portfólio desenvolvido com Next.js e Tailwind CSS. Ele exibe suas habilidades, projetos e conquistas com um design elegante.
+Este é um site de portfólio desenvolvido com Next.js. Ele exibe suas habilidades e projetos com um design elegante.
 
 Instalação:
 
@@ -31,8 +31,6 @@ Dependências
 As seguintes dependências são necessárias para este projeto:
 
 Next.js: Um framework React para renderização do lado do servidor e geração de sites estáticos.
-
-Tailwind CSS: Um framework CSS altamente personalizável.
 
 React: Uma biblioteca JavaScript para construção de interfaces de usuário.
 
