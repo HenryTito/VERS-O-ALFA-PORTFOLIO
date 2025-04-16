@@ -35,11 +35,11 @@ const TAB_DATA = [
     id: "projetos",
     content: (
       <ul className="custom-list">
-        <li>Sistema de controle de vendas usando Java</li>
         <li>Frontend para um Software de reconhecimento de tráfego urbano</li>
-        <li>Aplicativo de tempo e clima</li>
-        <li>Criação de REST APIs</li>
+        <li>Sistema de controle de vendas usando Java</li>
         <li>Réplica do aplicativo Spotify usando React</li>
+        <li>Criação de REST APIs</li>
+        
       </ul>
     )
   },
