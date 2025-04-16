@@ -8,14 +8,13 @@ import Projects from "./components/Projects";
 export default function Home() {
   return (
     <main className="main">
-    <div className="layout-principal">
+    
     <Header />
     <div className="content">
     <Hero />
     <AboutSection />
     <Projects />
   
-    </div>
     </div>
     </main>
     
