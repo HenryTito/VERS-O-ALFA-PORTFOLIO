@@ -41,7 +41,7 @@ const Hero = () => {
             <a href="mailto:hvst115@gmail.com?subject=Olá, vi seu portfólio!&body=Escreva sua mensagem!">
               <button className="btn-primary">Contate-me</button>
             </a>
-            <a href="/arquivos/CURRICULO.PDF" download>
+            <a href="/arquivos/CURRICULO.pdf" download>
               <button className="btn-secondary">Baixar CV</button>
             </a>
           </div>
