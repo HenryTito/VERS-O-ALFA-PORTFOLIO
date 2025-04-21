@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.projects {
+  grid-area: projects;
+}
+
+.heading{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.projects-box {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(350px, 1fr));
+  place-items: center;
+  gap: 3rem;
+  row-gap: 5rem;
+}
+
+.project-card {
+    margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 3rem;
+  gap: 2rem;
+  padding: 5rem 2rem;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 0 5px white;
+  transition: 0.3s ease;
+  color: white;
+  font-family: sans-serif;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 25px white, 0 0 50px white;
+  transform: scale(1.02);
+}
+
+.project-card img {
+  max-width: 300px;
+  border-radius: 2em;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+}
+
+.project-card p {
+  font-size: 1.3rem;
+}
