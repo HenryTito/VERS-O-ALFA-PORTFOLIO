@@ -4,6 +4,7 @@ import Header from "./components/header"
 import Hero from "./components/Hero";
 import AboutSection from "./components/AboutSection";
 import Projects from "./components/Projects";
+import Projetos from "./components/Projetos";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
     <div className="content">
     <Hero />
     <AboutSection />
-    <Projects />
+    <Projetos />
   
     </div>
     </main>
