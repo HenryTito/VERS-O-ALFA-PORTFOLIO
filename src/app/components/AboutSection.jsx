@@ -9,12 +9,21 @@ const TAB_DATA = [
     id: "habilidades",
     content: (
       <ul className="custom-list">
+        <p className='paragrafo-hard'>Hard skills:</p>
         <li>Node.js</li>
         <li>JavaScript</li>
         <li>C#</li>
         <li>Python</li>
         <li>React</li>
         <li>MySQL</li>
+
+        <p className='paragrafo-soft'>Soft skills:</p>
+        <li>Trabalho em equipe</li>
+        <li>Comunicação eficaz</li>
+        <li>Resolução de problemas</li>
+        <li>Adaptabilidade</li>
+        <li>Proatividade</li>
+        <li>Empatia</li>
       </ul>
     )
   },
@@ -23,10 +32,19 @@ const TAB_DATA = [
     id: "educacao",
     content: (
       <ul className="custom-list">
-        <li>Colégio Elo Educacional 2013-2024</li>
-        <li>Alura</li>
-        <li>Hashtag Treinamentos</li>
-        <li>Fatec DSM</li>
+        <li className='about'>Colégio Elo Educacional 2013-2024</li>
+        <li className='about'>Imersão Backend | Alura |<br></br>
+ Trabalhos com banco de dados (mySQL, PostgreSQL, MongoDB) .
+ <br></br>Programação orientada a objetos.
+ Criação de Rest API’S
+</li>
+<li className='about'>Curso de desenvolvimento Web | Alura |<br />
+ Aprofundamento em JavaScript DOM, React, REST API, Node JS.<br></br>
+ Desenvolvimento de aplicações web e programação orientada a objetos.</li>
+        <li className='about'>Imersão Backend | Hashtag treinamentos|<br></br>
+ Projetos de automatização de cadastros utilizando python com a biblioteca pyautogui, Pandas e openpyxl
+</li>
+        <li>Desenvolvimento de Software Multiplataforma | FATEC | (cursando)</li>
       </ul>
     )
   },
@@ -35,10 +53,13 @@ const TAB_DATA = [
     id: "projetos",
     content: (
       <ul className="custom-list">
-        <li>Frontend para um Software de reconhecimento de tráfego urbano</li>
         <li>Sistema de controle de vendas usando Java</li>
-        <li>Réplica do aplicativo Spotify usando React</li>
+        <li>Frontend para um Software de reconhecimento de tráfego urbano</li>
+        <li>Aplicativo de tempo e clima</li>
         <li>Criação de REST APIs</li>
+        <li>Réplica do aplicativo Spotify usando React</li>
+        <li>Projeto para filtragem de dados de exportação e importação de municípios FATEC</li>
+        
         
       </ul>
     )
@@ -81,7 +102,8 @@ const AboutSection = () => {
         <div className="about-content">
           <h2 className="about-title">Sobre mim</h2>
           <p className="about-text">
-            Olá! Me chamo Henry Vilela Silva Tito, tenho 18 anos e sou estudante de Desenvolvimento de Software Multiplataforma na FATEC. Sempre fui apaixonado por tecnologia, e foi na programação que encontrei meu verdadeiro interesse. Gosto de transformar ideias em soluções práticas e criativas, explorando diferentes linguagens e tecnologias. Estou sempre em busca de aprender mais, melhorar minhas habilidades e encarar novos desafios.
+           Olá! Me chamo Henry Vilela Silva Tito, tenho 18 anos e sou estudante de Desenvolvimento de Software Multiplataforma na FATEC. Sempre fui apaixonado por tecnologia, e foi na programação que encontrei meu verdadeiro interesse. Gosto de transformar ideias em soluções práticas e criativas, explorando diferentes linguagens, ferramentas e tecnologias.
+          Sou uma pessoa curiosa e determinada, sempre buscando aprender mais, melhorar minhas habilidades e enfrentar novos desafios. Fora do universo tech, gosto de jogar bola, aproveitar o tempo com amigos e me manter ativo. Me considero prestativo, comunicativo e proativo, sempre disposto a colaborar, aprender e contribuir com o time.
           </p>
           <div className="tab-buttons">
             {TAB_DATA.map((t) => (
