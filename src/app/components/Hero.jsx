@@ -7,7 +7,7 @@ import "./Hero.css";
 
 const Hero = () => {
   return (
-    <section>
+    <section className="hero">
       <div className="hero-grid">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
