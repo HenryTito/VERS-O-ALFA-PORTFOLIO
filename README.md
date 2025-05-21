@@ -1,6 +1,7 @@
 Website de Portfólio
 
 LINK VERCEL: https://vers-o-alfa-portfolio-five.vercel.app
+LINK 2 VERCEL: https://portfolio3-omega-fawn.vercel.app
 
 Este é um site de portfólio desenvolvido com Next.js. Ele exibe suas habilidades e projetos com um design elegante.
 
